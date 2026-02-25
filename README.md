@@ -3,6 +3,7 @@
 A desktop tool for CNC glass grinding alignment. Load a G-code file, visualise the toolpath, and automatically calculate three physical reference points so an operator can manually align and centre a glass workpiece on the machine — no probing required.
 
 Built with Python, PyQt6, and Matplotlib. Connects directly to GRBL-based CNC controllers via serial.
+![image description](https://github.com/Shamlan321/GlassAlign/blob/main/Screenshot_1.png)
 
 ---
 
