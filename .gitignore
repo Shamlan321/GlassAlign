@@ -1,0 +1,59 @@
+# ── Unrelated directories ──────────────────────────────────────────────────────
+offset_calc/
+
+# ── Python ─────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+pip-wheel-metadata/
+MANIFEST
+
+# ── Virtual environments ────────────────────────────────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+.env
+
+# ── PyInstaller ─────────────────────────────────────────────────────────────────
+*.spec.bak
+dist/
+build/
+
+# ── App config / user data ──────────────────────────────────────────────────────
+~/.glassalign/
+
+# ── IDE / editor ────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.suo
+*.user
+*.sln.docstates
+*.code-workspace
+
+# ── OS noise ────────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+ehthumbs.db
+
+# ── Logs / temp ─────────────────────────────────────────────────────────────────
+*.log
+*.tmp
+*.bak
+*.swp
+*~
+
+# ── Test artefacts ───────────────────────────────────────────────────────────────
+*.png
+*.jpg
+htmlcov/
+.coverage
+.pytest_cache/

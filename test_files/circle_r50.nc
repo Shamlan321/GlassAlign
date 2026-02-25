@@ -1,0 +1,7 @@
+; 100mm diameter circle centered at 50,50
+G21 G90 G17
+G0 X100 Y50 Z5
+G1 Z0 F500
+G2 X100 Y50 I-50 J0
+G0 Z5
+M30
